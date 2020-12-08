@@ -18,14 +18,14 @@
  * @prop {[]} managedResources - Defines which paths are managed
  */
 const buildConfig = {
-  defaultTeams: [/*
+  defaultTeams: [/
     {
-      name: 'example',
-      url: 'https://example.com'
+      name: 'Citizens',
+      url: 'https://mchat.citizens.coop'
     }
-  */],
+  /],
   helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
-  enableServerManagement: true,
+  enableServerManagement: false,
   enableAutoUpdater: true,
   managedResources: ['trusted'],
 };
